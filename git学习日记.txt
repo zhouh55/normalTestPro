@@ -1,3 +1,13 @@
 1、生成秘钥  ssh-keygen -t rsa -C '1069230911@qq.com'
 2、ssh-add ~/.ssh/id_rsa
 3、查看秘钥：cat /Users/yonghu/.ssh/id_rsa.pub
+5、关联远程仓库：git remote add origin    ------- 这里window7 或window10需要使用http的方式
+4、git 常用命令
+    (1)、添加 git add + 文件名 或者 .
+    (2)、提交 git commit -m '这是备注'
+    (3)、查看日志：git log
+    (4)、返回某次记录：git reset --hard + commit_id 某个版本号
+                                 --hard + head^  上个版本
+                                 --hard + head~100  回到之前100个版本
+    (5)、git checkout 撤销修改
+    (6)、git rm 删除文件
