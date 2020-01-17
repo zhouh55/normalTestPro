@@ -12,3 +12,4 @@
     (5)、git checkout 撤销修改
     (6)、git rm 删除文件
     (7)、git push origin master   第一次需要加个 -u
+    (8)、git pull  拉去 git仓库中最新的代码 前提是当前的版本不是最新版本
