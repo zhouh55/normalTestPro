@@ -5,7 +5,7 @@
 4、git 常用命令
     (1)、添加 git add + 文件名 或者 .
     (2)、提交 git commit -m '这是备注'
-    (3)、查看日志：git log
+    (3)、查看日志：git log --- 退出log状态 输入q
     (4)、返回某次记录：git reset --hard + commit_id 某个版本号
                                  --hard + head^  上个版本
                                  --hard + head~100  回到之前100个版本
